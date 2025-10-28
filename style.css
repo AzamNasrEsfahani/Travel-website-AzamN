@@ -1,0 +1,20 @@
+/* mobile-first */
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin:0; color:#0b2545; line-height:1.4; }
+header { padding:30px 16px; text-align:center; background:#0077b6; color:#fff; }
+.container { padding:20px 16px; }
+h2 { margin-top:0; }
+
+/* Glide images */
+.glide__slide img { width:100%; display:block; border-radius:8px; }
+
+/* gallery thumbnails */
+.thumb { width:100%; max-width:240px; margin:8px; border-radius:8px; display:inline-block; }
+
+/* footer */
+footer { text-align:center; padding:16px; background:#023e8a; color:#fff; }
+
+/* responsive grid for gallery */
+@media (min-width: 600px) {
+  #gallery .thumb { width:31%; }
+}
