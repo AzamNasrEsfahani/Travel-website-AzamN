@@ -6,9 +6,11 @@
     <title>Travel Explorer</title>
     <link rel="stylesheet" href="style.css">
     <!-- Glide.js CSS (slider) -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
-  <!-- AOS CSS (animate on scroll) -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- AOS CSS (animate on scroll) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Lightbox2 CSS (image popup) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
 </head>
 <body>
     <header>
@@ -21,16 +23,24 @@
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          <li class="glide__slide"><img src="./Images/2 (2).jpeg" alt="Tombs of Hafez in SHIRAZ City" width="60px"></li>
+          <li class="glide__slide"><img src="./Images/11.jpeg" alt="Persian Tile" width="60px"></li>
           <li class="glide__slide"><img src="./Images/3 (2).jpeg" alt="Azadi Tower in TEHRAN City" width="600px"></li>
-          <li class="glide__slide"><img src="./Images/4.jpeg" alt="Tombs of Kourosh in ShIRAZ City" width="600px"></li>
+          <li class="glide__slide"><img src="./Images/13.jpeg" alt="Haft Sin Tradditionall Holiday" width="600px"></li>
         </ul>
       </div>
     </div>
   </section>
+   <!-- GALLERY: Lightbox -->
+  <section id="gallery" class="container" data-aos="fade-up">
+    <h2>Gallery</h2>
+    <a href="./Images/12.jpeg" data-lightbox="travel to Shiraz"><img src="./Images/12.jpeg" alt="Shiraz" class="thumb"></a>
+    <a href="./Images/14.jpeg" data-lightbox="travel to North"><img src="./Images/14.jpeg" alt="Masouleh City" class="thumb"></a>
+    <a href="./Images/4.jpeg" data-lightbox="travel to Tombs of Kourosh"><img src="./Images/4.jpeg" alt="Kourosh" class="thumb"></a>
+  </section>
   <!-- JS libraries  -->
   <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <!-- external file  -->
   <script src="script.js"></script>
     
