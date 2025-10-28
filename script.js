@@ -1,3 +1,5 @@
+// 1) AOS init
+AOS.init();
 // 2) Glide init
 new Glide('.glide', {
   type: 'carousel',
