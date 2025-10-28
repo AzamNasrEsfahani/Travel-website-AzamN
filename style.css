@@ -21,6 +21,9 @@ h2 { margin-top:0; }
 footer { text-align:center; padding:16px; background:#023e8a; color:#fff; }
 
 /* responsive grid for gallery */
-@media (min-width: 600px) {
-  #gallery .thumb { width:31%; }
+@media (max-width: 600px) {
+  .glide__slide img {
+    max-height: 250px; /* smaller on mobile */
+  }
 }
+
