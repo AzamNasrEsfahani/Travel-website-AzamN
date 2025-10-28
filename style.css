@@ -6,7 +6,13 @@ header { padding:30px 16px; text-align:center; background:#0077b6; color:#fff; }
 h2 { margin-top:0; }
 
 /* Glide images */
-.glide__slide img { width:100%; display:block; border-radius:8px; }
+.glide__slide img 
+{ width: 100%;        /* always fill container width */
+  max-height: 400px;  /* limit height */
+  object-fit: cover;  /* crop nicely if needed */
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto; }
 
 /* gallery thumbnails */
 .thumb { width:100%; max-width:240px; margin:8px; border-radius:8px; display:inline-block; }
